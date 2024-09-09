@@ -1,0 +1,168 @@
+.header {
+    background: linear-gradient(#F53E2D,#FF6433);
+    margin-bottom: 50px;
+}
+
+.navbar_list {
+    font-size: 16px;
+}
+.navbar-item {
+    padding: 0 10px;
+    position: relative;
+
+
+}
+
+.separate::after {
+    content: "";
+    width: 1px;
+    height: 20px;
+    background: #F86C5C;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 600;
+}
+
+.shopee-svg-icon {
+    height: 50px;
+    fill: white;
+}
+.search {
+    max-width: 840px;
+}
+.head {
+    padding-bottom: 10px;
+
+}
+.head-search {
+    width: 840px;
+    padding: 3px;
+    border-radius: 3px;
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+
+.head-search input {
+    flex: 1;
+    border: none;
+    margin-left: 3px;
+    outline: none;
+    height: 100%;
+    width: 100%;
+
+}
+.head-search-btn {
+    width: 60px;
+    border: none;
+    border-radius: 3px;
+    background: #FB5533;
+    color: white;
+    font-weight: 500;
+    height: 100%;
+    margin-left: 3px;
+    position: relative;
+}
+.head-search-btn svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.head-cart {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.sub-nav {
+    margin-top: 3px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    line-height: 14px;
+    max-height: 14px;
+    font-size: 14px;
+}
+
+.sub-nav a {
+    margin-right: 10px;
+}
+
+
+
+.banner-slide img {
+}
+
+.banner {
+}
+
+.banner-voucher{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    height: 270px;
+
+
+}
+
+.banner-voucher img {
+    height: calc(270px / 2 - 2.5px );
+    width: 100%;
+}
+
+
+.banner-voucher img:first-child {
+
+    margin-bottom: 5px;
+
+}
+
+.menu-voucher {
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.menu-voucher .col {
+    padding: 0 ;
+
+}
+
+.menu-voucher .col:hover {
+    transform: translateY(-1px);
+}
+
+
+
+.menu-voucher-link {
+    color: #333 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.menu-voucher-link:hover {
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.menu-voucher-img {
+    height: 50px;
+}
+
+.menu-voucher-text {
+    font-size: 16px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0;
+}
+
+
+
